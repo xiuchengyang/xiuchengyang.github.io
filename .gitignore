@@ -1,0 +1,11 @@
+.DS_Store
+Thumbs.db
+assets/.DS_Store
+documents/*.docx
+documents/*.pdf
+reference/
+Reference/
+assets/images/source-*
+assets/images/legacy-*
+assets/research/source-*
+assets/research/surface-water-dynamics-time-series.png

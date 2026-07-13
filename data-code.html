@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Data products, map products, and code by Dr. Xiucheng Yang.">
+    <meta property="og:title" content="Data & Code | Dr. Xiucheng Yang">
+    <meta property="og:description" content="Map products, code repositories, and model resources.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/images/tidal-wetland-monitoring-hero.png">
+    <title>Data & Code | Dr. Xiucheng Yang</title>
+    <link rel="stylesheet" href="styles.css?v=20260713-11">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Dr. Xiucheng Yang home">
+        <span>Xiucheng Yang</span>
+        <small>Remote Sensing Scientist</small>
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="index.html">About</a>
+        <a href="research.html">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="data-code.html" aria-current="page">Data & Code</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <h1 class="sr-only">Data and Code</h1>
+
+      <section class="section first-section" aria-labelledby="apps-title">
+        <div class="section-label-row">
+          <p class="eyebrow" id="apps-title">Map products</p>
+        </div>
+        <div class="card-grid product-grid compact-resource-grid">
+          <article class="resource-card product-card">
+            <h3 class="sr-only">US tidal marsh extents, 1986-2023</h3>
+            <figure class="product-map-preview">
+              <iframe
+                src="https://gers.users.earthengine.app/view/tidalwetlandcover"
+                title="Map preview: US tidal marsh extents, 1986-2023"
+                loading="lazy"
+              ></iframe>
+              <figcaption>US tidal marsh extents<small>1986-2023</small></figcaption>
+            </figure>
+            <p>Annual Landsat-based tidal marsh extent product for tracking long-term change along US coasts.</p>
+            <a class="resource-link" href="https://gers.users.earthengine.app/view/tidalwetlandcover">Open product</a>
+          </article>
+          <article class="resource-card product-card">
+            <h3 class="sr-only">US tidal marsh condition and disturbance</h3>
+            <figure class="product-map-preview">
+              <iframe
+                src="https://xiucheng.projects.earthengine.app/view/ustidalmarsh"
+                title="Map preview: US tidal marsh condition and disturbance"
+                loading="lazy"
+              ></iframe>
+              <figcaption>US tidal marsh condition and disturbance</figcaption>
+            </figure>
+            <p>Landsat time-series product for browsing marsh condition, disturbance, and change hotspots.</p>
+            <a class="resource-link" href="https://xiucheng.projects.earthengine.app/view/ustidalmarsh">Open product</a>
+          </article>
+          <article class="resource-card product-card">
+            <h3 class="sr-only">Canada tidal marsh, 1986-2024</h3>
+            <figure class="product-map-preview">
+              <iframe
+                src="https://xiucheng.projects.earthengine.app/view/canadamarsh"
+                title="Map preview: Canada tidal marsh, 1986-2024"
+                loading="lazy"
+              ></iframe>
+              <figcaption>Canada tidal marsh<small>1986-2024</small></figcaption>
+            </figure>
+            <p>National tidal marsh product for exploring long-term marsh distribution, loss, and gain.</p>
+            <a class="resource-link" href="https://xiucheng.projects.earthengine.app/view/canadamarsh">Open product</a>
+          </article>
+          <article class="resource-card product-card">
+            <h3 class="sr-only">Florida mangrove disturbance and recovery</h3>
+            <figure class="product-map-preview">
+              <iframe
+                src="https://gers.users.earthengine.app/view/mangrove"
+                title="Map preview: Florida mangrove disturbance and recovery"
+                loading="lazy"
+              ></iframe>
+              <figcaption>Florida mangrove disturbance and recovery</figcaption>
+            </figure>
+            <p>Satellite time-series product for viewing mangrove damage, recovery, and repeated hurricane impacts.</p>
+            <a class="resource-link" href="https://gers.users.earthengine.app/view/mangrove">Open product</a>
+          </article>
+          <article class="resource-card product-card">
+            <h3 class="sr-only">North America tidal marsh at 10 m</h3>
+            <figure class="product-map-preview">
+              <iframe
+                src="https://xiucheng.projects.earthengine.app/view/marsh10m"
+                title="Map preview: North America tidal marsh at 10 m"
+                loading="lazy"
+              ></iframe>
+              <figcaption>North America tidal marsh<small>10 m</small></figcaption>
+            </figure>
+            <p>High-resolution tidal marsh cover product for checking spatial patterns across North American coasts.</p>
+            <a class="resource-link" href="https://xiucheng.projects.earthengine.app/view/marsh10m">Open product</a>
+          </article>
+          <article class="resource-card product-card">
+            <h3 class="sr-only">Connecticut understory habitat communities</h3>
+            <figure class="product-map-preview">
+              <iframe
+                src="https://gers.users.earthengine.app/view/understory"
+                title="Map preview: Connecticut understory habitat communities"
+                loading="lazy"
+              ></iframe>
+              <figcaption>Connecticut understory habitat communities</figcaption>
+            </figure>
+            <p>Sentinel-2 phenology product for browsing understory habitat communities beneath deciduous canopy.</p>
+            <a class="resource-link" href="https://gers.users.earthengine.app/view/understory">Open product</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="data-title">
+        <div class="section-label-row">
+          <p class="eyebrow" id="data-title">Data</p>
+        </div>
+        <div class="card-grid one-up compact-resource-grid">
+          <article class="resource-card compact-resource">
+            <p class="meta">Mendeley Data</p>
+            <h3>Monthly Surface Water Dynamics</h3>
+            <p>Dataset for monthly surface-water extent in metropolitan France derived from Sentinel-2 observations.</p>
+            <a href="https://data.mendeley.com/datasets/475kmt7ysv/1">Open data</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section soft-section" aria-labelledby="code-title">
+        <div class="section-label-row">
+          <p class="eyebrow" id="code-title">Code</p>
+        </div>
+        <div class="card-grid one-up compact-resource-grid">
+          <article class="resource-card compact-resource">
+            <p class="meta">GitHub</p>
+            <h3>Xiucheng Yang on GitHub</h3>
+            <p>Code repositories and open workflows.</p>
+            <a href="https://github.com/xiuchengyang">Open GitHub</a>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; <span id="year"></span> Dr. Xiucheng Yang</p>
+      <p>Department of Biology, University of Victoria; Department of Geography, McGill University</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

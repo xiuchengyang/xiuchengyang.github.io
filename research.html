@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Research topics from Dr. Xiucheng Yang, including DECODE, DECODER, land surface time series, water dynamics, and VHR image and 3D modeling."
+    >
+    <meta property="og:title" content="Research | Dr. Xiucheng Yang">
+    <meta property="og:description" content="Research topics and selected papers.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/images/tidal-wetland-monitoring-hero.png">
+    <title>Research | Dr. Xiucheng Yang</title>
+    <link rel="stylesheet" href="styles.css?v=20260713-11">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Dr. Xiucheng Yang home">
+        <span>Xiucheng Yang</span>
+        <small>Remote Sensing Scientist</small>
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="index.html">About</a>
+        <a href="research.html" aria-current="page">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="data-code.html">Data & Code</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <h1 class="sr-only">Research</h1>
+
+      <section class="section research-stack first-section" aria-label="Research topics">
+        <article class="research-topic featured-topic">
+          <div class="topic-info-panel">
+            <p class="meta">Topic 01</p>
+            <h2>Tidal Wetland Dynamics</h2>
+            <p>
+              I develop dense satellite time-series models, including DECODE, to monitor tidal wetland extent, condition,
+              and disturbance across large regions. A key challenge is to separate real wetland change from tidal-stage
+              and inundation effects in the satellite record.
+            </p>
+            <p>
+              The work supports continuous monitoring in conterminous US tidal wetlands and Canadian tidal marshes, from
+              long-term extent change to condition decline and disturbance hotspots.
+            </p>
+            <h3>Selected papers</h3>
+            <ul class="selected-papers">
+              <li>
+                <a href="https://www.nature.com/articles/s41467-026-71464-2">
+                  Yang et al., 2026, <em>Nature Communications</em>
+                </a>
+              </li>
+              <li>
+                <a href="https://doi.org/10.1016/j.rse.2022.113047">
+                  Yang et al., 2022, <em>Remote Sensing of Environment</em>
+                </a>
+              </li>
+              <li>
+                <a href="publications.html#yang-2026-rse-tidal-marsh">
+                  Yang et al., <em>Remote Sensing of Environment</em>, in revision
+                </a>
+              </li>
+              <li>
+                <a href="publications.html#yang-2026-ns-canada">
+                  Yang et al., <em>Nature Sustainability</em>, under review
+                </a>
+              </li>
+            </ul>
+            <h3>Models</h3>
+            <div class="link-row compact-link-row">
+              <a href="https://github.com/GERSL/DECODE">DECODE</a>
+              <a href="https://github.com/xiuchengyang/DECODE_v2.0">DECODE v2.0</a>
+            </div>
+            <h3>Products</h3>
+            <div class="link-row compact-link-row">
+              <a href="https://gers.users.earthengine.app/view/tidalwetlandcover">US tidal wetlands</a>
+              <a href="https://xiucheng.projects.earthengine.app/view/canadamarsh">Canada tidal marsh</a>
+            </div>
+            <h3>Media</h3>
+            <div class="link-row compact-link-row">
+              <a href="https://www.usgs.gov/centers/whcmsc/news/decode-a-new-automatic-algorithm-track-coastal-tidal-wetland-changes">USGS</a>
+              <a href="https://www.reuters.com/legal/litigation/loss-us-tidal-wetlands-accelerates-with-louisiana-hardest-hit-2026-05-19/">Reuters</a>
+              <a href="https://today.uconn.edu/2026/05/extreme-weather-events-accelerating-tidal-wetland-loss/">UConn Today</a>
+              <a href="https://www.earth.com/news/wetlands-are-vanishing-faster-despite-decades-of-protection/?utm_source=dlvr.it&amp;utm_medium=linkedin">Earth.com</a>
+            </div>
+          </div>
+          <div class="topic-visual-panel topic-media-grid vertical-media">
+            <figure class="topic-media wide large-media">
+              <img
+                src="assets/research/decode-pixel-time-series.gif"
+                alt="Animated tidal wetland monitoring result."
+                loading="lazy"
+              >
+              <figcaption>DECODE time-series model for one Landsat pixel.</figcaption>
+            </figure>
+            <figure class="topic-media wide large-media">
+              <video
+                src="assets/research/us-tidal-wetland-hotspots.mov"
+                autoplay
+                loop
+                muted
+                playsinline
+                preload="metadata"
+                aria-label="Animated tidal wetland dynamics result video."
+              ></video>
+              <figcaption>Visualization of tidal wetland hotspots in the US.</figcaption>
+            </figure>
+          </div>
+        </article>
+
+        <article class="research-topic">
+          <div class="topic-info-panel">
+            <p class="meta">Topic 02</p>
+            <h2>Disturbance and Resilience</h2>
+            <p>
+              I use dense satellite time series to study disturbance and recovery as one process: when damage happens,
+              how fast ecosystems recover, and whether another event arrives before recovery is complete.
+            </p>
+            <p>
+              We applied this idea to Florida mangroves, where repeated hurricanes can shrink the recovery window and
+              push damaged forests toward ghost forest or open-water transitions. I also use temporal autocorrelation
+              (AC1/TAC1) as a separate indicator of resilience, especially for detecting weakening recovery capacity.
+            </p>
+            <h3>Selected papers</h3>
+            <ul class="selected-papers">
+              <li>
+                <a href="https://doi.org/10.1016/j.rse.2024.114461">
+                  Yang et al., 2024, <em>Remote Sensing of Environment</em>
+                </a>
+              </li>
+              <li>
+                <a href="https://doi.org/10.1038/s41561-025-01792-3">
+                  Qiu et al., 2025, <em>Nature Geoscience</em>
+                </a>
+              </li>
+              <li>
+                <a href="https://doi.org/10.1038/s41559-026-03116-z">
+                  Song et al., 2026, <em>Nature Ecology &amp; Evolution</em>
+                </a>
+              </li>
+            </ul>
+            <h3>Model</h3>
+            <div class="link-row compact-link-row">
+              <a href="https://github.com/GERSL/DECODE">DECODER model</a>
+            </div>
+            <h3>Media</h3>
+            <div class="link-row compact-link-row">
+              <a href="https://science.nasa.gov/earth/earth-observatory/mangroves-are-losing-their-resilience/">NASA Earth Observatory</a>
+              <a href="https://svs.gsfc.nasa.gov/14903#section_credits">NASA Scientific Visualization Studio</a>
+            </div>
+          </div>
+          <div class="topic-visual-panel topic-media-grid resilience-layout">
+            <figure class="topic-media wide large-media">
+              <img
+                src="assets/research/mangrove-disturbance-recovery.gif"
+                alt="Animated resilience and recovery analysis from satellite time series."
+                loading="lazy"
+              >
+              <figcaption>Continuous monitoring of mangrove condition, disturbance severity, and recovery.</figcaption>
+            </figure>
+            <div class="mangrove-photo-stack">
+              <figure class="topic-media">
+                <img
+                  src="assets/research/mangrove-field-disturbance.jpg"
+                  alt="Field view of hurricane-disturbed mangroves in Florida."
+                  loading="lazy"
+                >
+                <figcaption>Field view of disturbed mangrove structure.</figcaption>
+              </figure>
+              <figure class="topic-media">
+                <img
+                  src="assets/research/mangrove-canopy-disturbance-aerial.jpg"
+                  alt="Aerial view of hurricane-impacted mangrove canopy in Florida."
+                  loading="lazy"
+                >
+                <figcaption>Aerial view of hurricane-impacted mangrove canopy.</figcaption>
+              </figure>
+            </div>
+          </div>
+        </article>
+
+        <article class="research-topic">
+          <div class="topic-info-panel">
+            <p class="meta">Topic 03</p>
+            <h2>Dense Time Series for Land Surface Monitoring</h2>
+            <p>
+              Dense satellite time series make some hidden land-surface features visible because timing can carry
+              information that a single image cannot. Instead of depending on one clear image, this work uses seasonality
+              and short-lived phenological windows.
+            </p>
+            <p>
+              Understory vegetation is a good example. It is usually hidden by the forest canopy, but an early-spring
+              window before canopy closure lets Sentinel-2 time series detect understory plant communities.
+            </p>
+            <h3>Selected papers</h3>
+            <ul class="selected-papers">
+              <li>
+                <a href="https://doi.org/10.1016/j.rse.2023.113601">
+                  Yang et al., 2023, <em>Remote Sensing of Environment</em>
+                </a>
+              </li>
+            </ul>
+            <h3>Code and product</h3>
+            <div class="link-row compact-link-row">
+              <a href="https://github.com/GERSL/understory_mapping">Understory mapping code</a>
+              <a href="https://gers.users.earthengine.app/view/understory">Understory product</a>
+            </div>
+            <h3>Media</h3>
+            <div class="link-row compact-link-row">
+              <a href="https://today.uconn.edu/2023/06/mapping-connecticuts-understory-from-space/">UConn Today</a>
+            </div>
+          </div>
+          <div class="topic-visual-panel topic-media-grid understory-media-row">
+            <figure class="topic-media">
+              <img
+                src="assets/research/understory-phenology-time-series.jpg"
+                alt="Understory seasonal phenology and Sentinel-2 time series figure."
+                loading="lazy"
+              >
+              <figcaption>Understory phenology as a time-series signal beneath deciduous forest canopy in early spring.</figcaption>
+            </figure>
+            <figure class="topic-media">
+              <img
+                src="assets/research/understory-field-communities.png"
+                alt="Field photos of understory plant communities including barberry, greenbriar, mixed invasive plants, and mountain laurel."
+                loading="lazy"
+              >
+              <figcaption>Field examples of understory plant communities.</figcaption>
+            </figure>
+          </div>
+        </article>
+
+        <article class="research-topic">
+          <div class="topic-info-panel">
+            <p class="meta">Topic 04</p>
+            <h2>Water Dynamics</h2>
+            <p>
+              I developed image-processing methods for automated surface-water mapping. This work handles common errors
+              in optical water detection, especially confusion with built-up surfaces and terrain or cloud shadows.
+            </p>
+            <p>
+              With Sentinel-2 and Landsat observations, these studies improve water-index design, reduce urban background
+              noise, and map monthly surface-water extent at 10 m resolution.
+            </p>
+            <h3>Selected papers</h3>
+            <ul class="selected-papers">
+              <li>
+                <a href="https://doi.org/10.1016/j.rse.2018.09.016">
+                  Yang et al., 2018, <em>Remote Sensing of Environment</em>
+                </a>
+              </li>
+              <li>
+                <a href="https://doi.org/10.1016/j.rse.2020.111803">
+                  Yang et al., 2020, <em>Remote Sensing of Environment</em>
+                </a>
+              </li>
+            </ul>
+            <h3>Product</h3>
+            <div class="link-row compact-link-row">
+              <a href="https://data.mendeley.com/datasets/475kmt7ysv/1">Monthly France water dynamics data</a>
+            </div>
+          </div>
+          <div class="topic-visual-panel topic-media-grid">
+            <figure class="topic-media wide">
+              <img
+                src="assets/research/surface-water-detection-built-up-noise.png"
+                alt="Surface-water detection example showing built-up noise suppression."
+                loading="lazy"
+              >
+              <figcaption>Surface-water detection with built-up noise suppression.</figcaption>
+            </figure>
+          </div>
+        </article>
+
+        <article class="research-topic">
+          <div class="topic-info-panel">
+            <p class="meta">Topic 05</p>
+            <h2>VHR Image and 3D Modeling</h2>
+            <p>
+              My earlier work used VHR oblique aerial imagery for urban image matching and building extraction, and
+              photogrammetry for built-heritage documentation. It connects geometric image interpretation with practical
+              reconstruction workflows.
+            </p>
+            <h3>Selected papers</h3>
+            <ul class="selected-papers">
+              <li>
+                <a href="https://doi.org/10.1109/MGRS.2015.2502280">
+                  Yang et al., 2015, <em>IEEE Geoscience and Remote Sensing Magazine</em>
+                </a>
+              </li>
+              <li>
+                <a href="https://doi.org/10.1016/j.culher.2020.05.008">
+                  Yang et al., 2020, <em>Journal of Cultural Heritage</em>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="topic-visual-panel topic-media-grid vhr-media-row">
+            <figure class="topic-media">
+              <img
+                src="assets/research/vhr-oblique-aerial-building-analysis.png"
+                alt="VHR oblique aerial imagery for urban building analysis."
+                loading="lazy"
+              >
+              <figcaption>VHR oblique aerial imagery for urban building analysis.</figcaption>
+            </figure>
+            <figure class="topic-media">
+              <img
+                src="assets/research/photogrammetry-built-heritage-point-cloud.png"
+                alt="Photogrammetry point cloud and built-heritage documentation."
+                loading="lazy"
+              >
+              <figcaption>Photogrammetry point cloud and built-heritage documentation.</figcaption>
+            </figure>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; <span id="year"></span> Dr. Xiucheng Yang</p>
+      <p>Department of Biology, University of Victoria; Department of Geography, McGill University</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
